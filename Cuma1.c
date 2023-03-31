@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main(){
-	printf("karesi alýnacak sayýyýz giriniz");
-    int n1,karesi;
-    scanf("%d",&n1);
+	printf("karesi alinacak sayiyi giriniz");
+    double n1,karesi;
+    scanf("%lf",&n1);
     karesi = n1*n1;
-    printf("%d",karesi);
+    printf("%lf",karesi);
 }
