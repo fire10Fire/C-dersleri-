@@ -6,4 +6,5 @@ int main(){
     scanf("%lf",&n1);
     karesi = n1*n1;
     printf("%lf",karesi);
+    jbhbvh
 }
