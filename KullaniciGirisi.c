@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-	int a;
-	printf("bir sayý giriniz : ");
-	scanf("%d",&a);
-	printf("%d",a);
+	int b,a;
+	
+	printf("sayýlarý giriniz : ");
+	scanf("%d%d",&a,&b);
+	int cevap = a*b;
+	printf("girdiðiniz sayýlarýn çarpýmý : %d",cevap);
 }
