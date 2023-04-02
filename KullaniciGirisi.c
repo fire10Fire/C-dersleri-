@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-	int b,a;
+	double a;
+	double b;
 	
 	printf("sayýlarý giriniz : ");
-	scanf("%d%d",&a,&b);
-	int cevap = a*b;
-	printf("girdiðiniz sayýlarýn çarpýmý : %d",cevap);
+	scanf("%lf%lf",&a,&b);
+	double cevap = a*b;
+	printf("girdiðiniz sayýlar %f ve %f ise çarpýmý : %f  olur",a,b,cevap);
 }
