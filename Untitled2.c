@@ -1,5 +1,7 @@
 //bir sayýnýn karesini alan programdýr
 #include<stdio.h>
+//burda a global deðiþken olarak yer alýr
+
 	int a;
 	
 int main(){
@@ -14,6 +16,7 @@ int kare(){
 }
 
 int carpma(){
+//be burada yerel deðiþken olarak yer alýr ve carpma fonksiyonun dýþýnda kullanýlamaz
 	int b;
 	int carpim=0;
 	printf("carpmak isedðiniz iki sayýyý giriniz : ");
