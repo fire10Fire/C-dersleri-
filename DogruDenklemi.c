@@ -5,4 +5,5 @@
  	scanf("%lf%lf",&a,&b);
  	double x1= -b/a;
  	printf("Denklemi verilen dogru x eksenini %.1f noktasinda keser",x1);
+ 	
  }
