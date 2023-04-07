@@ -31,7 +31,7 @@ int main(){
 			default:
 				printf("Yanlis giris yaptiniz tekrar giriniz");
 				break;
-		}
+		} // ne olmus burda
 		top2+=aydaGun;
 	} 
 	switch(bA){
