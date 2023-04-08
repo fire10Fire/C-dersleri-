@@ -1,6 +1,6 @@
 #include<Stdio.h>
 int main(){
-	
+	// yeni eklemeler suan hangi dalda
 	baslangic:
 	printf("Istikrar takip istasyonuna hosgeldiniz\nKac numarali istikrari gormek istersiniz\n");
 	int anahtar;
